@@ -11,7 +11,7 @@ protected void initRegistration(RegistrationBuilder builder) {
 }
 ```
 
-That method can be used to add custom registry transformers and conditions and enable builtin transformers. See [Advanced Registration](./AdvancedRegistration.md)
+That method can be used to add custom registry transformers and conditions and enable builtin transformers. See [Advanced Registration](Advanced.md)
 
 You can then set registration handlers in your mods constructor like this:
 
