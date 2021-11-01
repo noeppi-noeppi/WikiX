@@ -4,7 +4,7 @@ LibX is a library mod for minecraft.
 
 You can download it on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/libx) (recommended) or [Modrinth](https://modrinth.com/mod/libx).
 
-Use LibX in a development environemnt:
+Use LibX in a development environment:
 
 ```groovy
 repositories {
