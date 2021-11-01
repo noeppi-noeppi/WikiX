@@ -4,7 +4,8 @@ This briefly lists base classes for the [LibX registration system](./Registratio
 
 ### EnumObjects
 
-`EnumObjects` registers multiple objects based on an enum. This uses the `getNamedAdditionalRegisters` method in `Registerable` where the map key is the enum values name in lowercase.
+`EnumObjects` registers multiple objects based on an enum.
+This uses the `getNamedAdditionalRegisters` method in `Registerable` where the map key is the enum values name in lowercase.
 
 ### ItemBase
 
@@ -20,12 +21,17 @@ This briefly lists base classes for the [LibX registration system](./Registratio
 
 ### BlockBE
 
-`BlockBE` will register a block, an item and a block entity type. It also registers a tile entity ticker and a game event listener if the tile entity class implements some interfaces. For more information see the javadoc.
+`BlockBE` will register a block, an item and a block entity type.
+It also registers a tile entity ticker and a game event listener if the tile entity class implements some interfaces.
+For more information see the javadoc.
 
 ### BlockMenu
 
-`BlockMenu` will register everything `BlockBE` does and also a menu type. It also provides the logic to open the menu when the block is right-clicked.
+`BlockMenu` will register everything `BlockBE` does and also a menu type.
+It also provides the logic to open the menu when the block is right-clicked.
 
 ### DecoratedBlock
 
-`DecoratedBlock` will register some decoration blocks together with a block. This system can be extended and LibX provides a few builtin types already. For more information see the javadoc.
+`DecoratedBlock` will register some decoration blocks together with a block.
+This system can be extended and LibX provides a few builtin types already.
+For more information see the javadoc.

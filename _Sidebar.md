@@ -1,6 +1,6 @@
-  * [Home](./Home)
-  * [First Steps](./FirstSteps)
-  * ModInit
+  * [Home](Home)
+  * [First Steps](FirstSteps)
+  * [ModInit](ModInit)
     * [Registration](ModInitRegistration)
   * [Registration](Registration)
     * [Base Classes](RegistrationBase)
