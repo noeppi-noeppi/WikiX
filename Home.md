@@ -1,4 +1,4 @@
-LibX Wiki
+# LibX Wiki
 
 LibX is a library mod for minecraft.
 

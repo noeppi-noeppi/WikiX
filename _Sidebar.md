@@ -3,4 +3,5 @@
   * ModInit
     * [Registration](ModInitRegistration)
   * [Registration](Registration)
+    * [Base Classes](RegistrationBase)
     * [Advanced](RegistrationAdvanced)
