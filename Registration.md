@@ -11,7 +11,7 @@ protected void initRegistration(RegistrationBuilder builder) {
 }
 ```
 
-That method can be used to add custom registry transformers and conditions and enable builtin transformers. See [Advanced Registration](RegistrationAdvanced.md)
+That method can be used to add custom registry transformers and conditions and enable builtin transformers. See [Advanced Registration](RegistrationAdvanced)
 
 You can then set registration handlers in your mods constructor like this:
 
@@ -21,7 +21,7 @@ this.addRegistrationHandler(ModItems::register)
 
 This will add the `register()` method in the `ModItems` class as a registration handler.
 
-Instead of registration handlers, you can also use [ModInit](ModInitRegistration.md)
+Instead of registration handlers, you can also use [ModInit](ModInitRegistration)
 
 When registration loads, the method is called. It should then register objects using `ModXRegistration#register(String, Object)`.
 The first parameter is the name of the object to register.
