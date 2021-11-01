@@ -1,6 +1,6 @@
-  * [Home](./Home.md)
-  * [First Steps](./FirstSteps.md)
+  * [Home](./Home)
+  * [First Steps](./FirstSteps)
   * ModInit
-    * [Registration](modinit/Registration.md)
-  * [Registration](registration/Registration.md)
-    * [Advanced](registration/Advanced.md)
+    * [Registration](modinit/Registration)
+  * [Registration](registration/Registration)
+    * [Advanced](registration/Advanced)
