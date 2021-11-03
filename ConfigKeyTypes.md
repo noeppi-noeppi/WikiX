@@ -17,7 +17,7 @@ This is a list of all types that can be used as a type for a config field:
   * `List<T>` if `T` is supported.
   * `Map<String, T>` if `T` is supported.
   * `Pair<A, B>` if `A` and `B` are supported.
-  * `Triple<A, B, C>` if `A`, `B?`  and `C` are supported.
+  * `Triple<A, B, C>` if `A`, `B`  and `C` are supported.
   * Every `enum`
   * Every `record` if the types of all record components are supported.
   * `UUID`
