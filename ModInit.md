@@ -14,7 +14,7 @@ Add `@Model` to a field of type `BakedModel` to load a model into that field.
 
 Add `@Datagen` to the class of a data provider to register it for datagen.
 The class must declare exactly one constructor that takes any arguments with the following types:
-  * `ModxX`
+  * `ModX`
   * `DataGenerator`
   * `ExistingFileHelper`
 
