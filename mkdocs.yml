@@ -1,6 +1,7 @@
 site_name: LibX Wiki
 repo_name: noeppi-noeppi/LibX
 repo_url: https://github.com/noeppi-noeppi/LibX
+use_directory_urls: false
 
 theme: windmill
 
