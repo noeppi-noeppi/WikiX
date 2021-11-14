@@ -1,6 +1,6 @@
 # Registration base classes
 
-This briefly lists base classes for the [LibX registration system](./Registration).
+This briefly lists base classes for the [LibX registration system](index.md).
 
 ### EnumObjects
 

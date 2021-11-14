@@ -1,6 +1,6 @@
 # ModInit registration
 
-You can use ModInit to register stuff to the [LibX registration system](Registration).
+You can use ModInit to register stuff to the [LibX registration system](../registration/index.md).
 For this, add `@RegisterClass` to a class.
 All `public` `static` `final` fields from that class will be registered to the LibX registration system.
 To exclude a field, annotate it with `@NoReg`.

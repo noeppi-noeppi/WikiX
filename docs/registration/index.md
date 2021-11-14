@@ -11,7 +11,7 @@ protected void initRegistration(RegistrationBuilder builder) {
 }
 ```
 
-That method can be used to add custom registry transformers and conditions and enable builtin transformers. See [Advanced Registration](RegistrationAdvanced)
+That method can be used to add custom registry transformers and conditions and enable builtin transformers. See [Advanced Registration](advanced.md)
 
 You can then set registration handlers in your mods constructor like this:
 
@@ -21,7 +21,7 @@ this.addRegistrationHandler(ModItems::register)
 
 This will add the `register()` method in the `ModItems` class as a registration handler.
 
-Instead of registration handlers, you can also use [ModInit](ModInitRegistration)
+Instead of registration handlers, you can also use [ModInit](../modinit/registration.md)
 
 When registration loads, the method is called. It should then register objects using `ModXRegistration#register(String, Object)`.
 The first parameter is the name of the object to register.
@@ -37,13 +37,13 @@ It also allows registering additional objects to the one object.
 This for example allows registering an item together with a block automatically.
 
 ```java
-@override
+@Override
 public Set<Object> getAdditionalRegisters(ResourceLocation id) {
     // Return a set of objects to register with this one
     // They'll use the same registry name.
 }
 
-@override
+@Override
 public Map<String, Object> getNamedAdditionalRegisters(ResourceLocation id) {
     // Return a map of objects to register with this one
     // The registry name of these is created by the registry name

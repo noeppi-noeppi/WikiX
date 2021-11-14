@@ -24,7 +24,7 @@ Using `@RegisterConfig` and `@RegisterMapper` you can register configs and mappe
 
 ### Advanced ModInit Features
 
-  * [Registration](./ModInitRegistration)
-  * [Codec Generation](./ModInitCodecs)
+  * [Registration](registration.md)
+  * [Codec Generation](codecs.md)
   
 

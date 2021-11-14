@@ -1,6 +1,6 @@
 # First Steps
 
-Add LibX as a dependency as described [here](./Home).
+Add LibX as a dependency as described [here](index.md).
 
 ### Declare dependency in mods.toml
 

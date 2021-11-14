@@ -34,7 +34,7 @@ Each field annotated ith `@Config` will become a config value and the value set 
 The initial value of the field will become the default value.
 The fields must be `static` and may not be `final`.
 Null values are not allowed in the fields, but in the config json.
-For a lis tof supported field types, see [Config Key Types](ConfigKeyTypes).
+For a lis tof supported field types, see [Config Key Types](key_types.md).
 
 To register that config, use one of the `ConfigManager.registerConfig` methods:
 
