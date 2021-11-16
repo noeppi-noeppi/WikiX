@@ -13,6 +13,7 @@ These are used to get the values when writing in a codec.
 To get the generated codec, use `Codecs.get(Class<?>,Class<?>)` with your mods class and the class, the codec was generated for.
 
 Parameters can be of any type that fulfills one of the following criteria by default:
+
   * DataFixerUpper provides a builtin Codec for that type
   * The class of the parameter has a `public` `static` `final` field named `CODEC` or `DIRECT_CODEC` for that type.
 
