@@ -19,15 +19,10 @@ extra:
 nav:
   - Home: index.md
   - First Steps: first_steps.md
-  - Registration:
-    - Home: registration/index.md
-    - Base Classes: registration/base_classes.md
-    - Advanced: registration/advanced.md
   - Configs:
     - Home: config/index.md
     - Key Types: config/key_types.md
   - ModInit:
     - Home: modinit/index.md
-    - Registration: modinit/registration.md
     - Codecs: modinit/codecs.md
    
