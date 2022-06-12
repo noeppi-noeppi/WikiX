@@ -1,7 +1,7 @@
 site_name: LibX Wiki
-site_url: https://noeppi-noeppi.github.io/WikiX
-repo_name: noeppi-noeppi/LibX
-repo_url: https://github.com/noeppi-noeppi/LibX
+site_url: https://moddingx.github.io/WikiX
+repo_name: ModdingX/LibX
+repo_url: https://github.com/ModdingX/LibX
 use_directory_urls: false
 
 theme: windmill
@@ -14,20 +14,14 @@ markdown_extensions:
 
 extra:
   logo: logo.png
-  version: "<span onClick=\"window.open('https://discord.gg/NfwG6txUN6')\">Discord</span>"
+  version: "<span onClick=\"window.open('https://moddingx.org/discord')\">Discord</span>"
 
 nav:
   - Home: index.md
   - First Steps: first_steps.md
-  - Registration:
-    - Home: registration/index.md
-    - Base Classes: registration/base_classes.md
-    - Advanced: registration/advanced.md
   - Configs:
     - Home: config/index.md
     - Key Types: config/key_types.md
   - ModInit:
     - Home: modinit/index.md
-    - Registration: modinit/registration.md
     - Codecs: modinit/codecs.md
-   
