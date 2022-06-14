@@ -22,6 +22,11 @@ nav:
   - Configs:
     - Home: config/index.md
     - Key Types: config/key_types.md
+  - The LibX Registration System:
+    - Home: registration/index.md
+    - Registry Transformers: registration/transformers.md
+    - Registry Tracking: registration/tracking.md
   - ModInit:
     - Home: modinit/index.md
     - Codecs: modinit/codecs.md
+    - Registration: modinit/registration.md
