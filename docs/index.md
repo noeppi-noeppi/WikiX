@@ -9,14 +9,14 @@ Use LibX in a development environment:
 ```groovy
 repositories {
     maven {
-        name = 'MelanX Maven'
-        url = 'https://maven.melanx.de/'
+        name = 'ModdingX Maven'
+        url = 'https://maven.moddingx.org/'
     }
 }
 
 dependencies {
-    annotationProcessor fg.deobf("io.github.noeppi_noeppi.mods:LibX:${mc_version}-${libx-version}")
-    implementation fg.deobf("io.github.noeppi_noeppi.mods:LibX:${mc_version}-${libx-version}")
+    annotationProcessor fg.deobf("org.moddingx:LibX:${mc_version}-${libx-version}")
+    implementation fg.deobf("org.moddingx:LibX:${mc_version}-${libx-version}")
 }
 ```
 
