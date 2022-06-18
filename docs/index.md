@@ -20,4 +20,4 @@ dependencies {
 }
 ```
 
-Javadoc can be found at https://moddingx.org/libx
+Javadoc can be found at [https://moddingx.org/libx](https://moddingx.org/libx).
