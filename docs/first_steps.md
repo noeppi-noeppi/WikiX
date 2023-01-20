@@ -19,8 +19,6 @@ Put this into your `mods.toml` file and replace `modid` with your mods id and `l
 
 Most stuff in LibX requires your mod class to extends `ModX`.
 
-This will provide you with some abstract methods for setup events and a logger.
-You can also pass a `CreativeModeTab` to the `super` constructor. This tab is then used as the mods tab by other LibX features.
-If you plan to add multiple creative tabs, you should not use this feature.
+This will provide you with some abstract methods for setup events, the possibility to use [ModInit](modinit/index.md) and config guis.
 
-You should now check out other parts in the wiki to see what features from LibX are useful for you.
+Check out other parts of the wiki to see what other features are useful to you.
