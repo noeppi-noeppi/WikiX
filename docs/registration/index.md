@@ -42,6 +42,6 @@ Having a single object that can be registered that then creates 16 `Block` insta
 LibX actually has a builtin class for this: `EnumObjects`.
 
 `MultiRegisterable` exists to solve this problem.
-It is structured very similar to noraml [registerable](#the-registerable-interface), however its `registerAdditional` method can register objects without explicitly giving a registry.
+It is very similar to normal [registerable](#the-registerable-interface), however its `registerAdditional` method can register objects without explicitly giving a registry.
 Instead they will inherit the registry from the `MultiRegisterable` object.
 A `MultiRegisterable` object is registered with `ModXRegistration#registerMulti` instead of `ModXRegistration#register`.

@@ -1,7 +1,7 @@
 # ModInit Registration
 
 ModInit has a system to register each `public static final` field from a class into a set registry.
-If [registry tracking](../registration/tracking.md) is enabled, these fields will also be added as tracking targets for their containede elements.
+If [registry tracking](../registration/tracking.md) is enabled, these fields will also be added as tracking targets for their contained elements.
 To get started, apply `@RegisterClass` to your class.
 The target registry is set by the `registry` field in `@RegisterClass`. This can be the empty string to register elements without a registry.
 (Only really makes sense on `Registerable`s though)
