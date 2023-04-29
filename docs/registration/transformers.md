@@ -15,7 +15,7 @@ The following condition would exclude all `Item`s from registration:
 public class ExcludeItems implements RegistryCondition {
     
     public boolean shouldRegister(RegistrationContext ctx, Object value) {
-        return ctx.registry().isEmpty() || Registry.ITEM_REGISTRY != ctx.registry().get();
+        return ctx.registry().isEmpty() || Registries.ITEM != ctx.registry().get();
     }
 }
 ```
@@ -34,7 +34,7 @@ public class BlockItems implements RegistryTransformer {
     
     public void transform(RegistrationContext ctx, Object value, Registerable.EntryCollector builder) {
         if (value instanceof Block block) {
-            builder.register(Registry.ITEM_REGISTRY, new BlockItem(block, new Item.Properties()));
+            builder.register(Registries.ITEM, new BlockItem(block, new Item.Properties()));
         }
     }
 }

@@ -14,7 +14,7 @@ This allows to set another class where the registry key is stored.
 An example could look like this:
 
 ```java
-@RegisterClass(registry = "ITEM_REGISTRY")
+@RegisterClass(registry = "ITEM")
 public class ModItems {
     
     public static final ItemBase rawSteel = new ItemBase(MyMod.getInstance(), new Item.Properties()); // mymod:raw_steel
