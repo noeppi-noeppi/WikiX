@@ -3,10 +3,10 @@
 SandBox provides a range of data providers for world generation related objects.
 These make use of the [LibX datagen system](../datagen/index.md) to extend the datagen registry set.
 
-All SandBox providers extend the base class `SandBoxProviderBase`.
+All SandBox providers extend the base class `RegistryProviderBase`.
 The subclasses of these providers provide ways to create `Holder`s of the elements you want to generate.
 These holders are intrusive and must be properly registered afterwards.
-`SandBoxProviderBase` makes sure, each `public`, non-`static` field in the provider class that has a type of `Holder` and contains an intrusive holder when the provider runs, is added to the registry.
+`RegistryProviderBase` makes sure, each `public`, non-`static` field in the provider class that has a type of `Holder` and contains an intrusive holder when the provider runs, is added to the registry.
 
 The id of the object is obtained from the field name, however, it's possible to change that id using the `@Id` annotation.
 
