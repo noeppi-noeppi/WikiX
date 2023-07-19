@@ -1,0 +1,19 @@
+site_name: PackDev Wiki
+repo_name: ModdingX/PackDev
+repo_url: https://github.com/ModdingX/PackDev
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Modpack:
+    - Modlist: modpack/modlist.md
+    - Build Configuration: modpack/configuration.md
+  - Mod Loaders:
+    - MinecraftForge: loaders/forge.md
+    - Fabric: loaders/fabric.md
+    - Quilt: loaders/quilt.md
+  - Targets:
+    - CurseForge: targets/curseforge.md
+    - Modrinth: targets/modrinth.md
+    - Server: targets/server.md
+    - MultiMC: targets/multimc.md

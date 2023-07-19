@@ -19,6 +19,10 @@ extra:
       link: https://moddingx.org/discord
     - icon: fontawesome/brands/github
       link: https://github.com/ModdingX/
+    - icon: minecraft/curseforge
+      link: https://github.com/ModdingX/LibX
+    - icon: minecraft/modrinth
+      link: https://modrinth.com/mod/libx
   version:
     provider: mike
 
