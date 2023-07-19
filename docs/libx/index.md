@@ -15,8 +15,8 @@ repositories {
 }
 
 dependencies {
-    annotationProcessor fg.deobf("org.moddingx:LibX:${mc_version}-${libx-version}")
-    implementation fg.deobf("org.moddingx:LibX:${mc_version}-${libx-version}")
+    annotationProcessor fg.deobf("org.moddingx:LibX:${mc_version}-${libx_version}")
+    implementation fg.deobf("org.moddingx:LibX:${mc_version}-${libx_version}")
 }
 ```
 
