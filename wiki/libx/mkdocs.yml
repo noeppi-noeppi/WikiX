@@ -1,0 +1,23 @@
+site_name: LibX Wiki
+repo_name: ModdingX/LibX
+repo_url: https://github.com/ModdingX/LibX
+
+nav:
+  - Home: index.md
+  - First Steps: first_steps.md
+  - Configs:
+    - Home: config/index.md
+    - Key Types: config/key_types.md
+  - The LibX Registration System:
+    - Home: registration/index.md
+    - Registry Transformers: registration/transformers.md
+    - Registry Tracking: registration/tracking.md
+  - The LibX Datagen System:
+    - Home: datagen/index.md
+  - SandBox:
+    - Home: sandbox/index.md
+    - Datagen: sandbox/datagen.md
+  - ModInit:
+    - Home: modinit/index.md
+    - Codecs: modinit/codecs.md
+    - Registration: modinit/registration.md

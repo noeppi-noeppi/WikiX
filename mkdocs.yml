@@ -1,31 +1,5 @@
-site_name: ModdingX Wiki
 site_url: https://moddingx.github.io/WikiX
-repo_name: ModdingX
-repo_url: https://github.com/ModdingX/
-edit_uri: https://github.com/ModdingX/WikiX/edit/master/docs/
 use_directory_urls: false
-
-nav:
-  - Home: index.md
-  - LibX:
-    - Home: libx/index.md
-    - First Steps: libx/first_steps.md
-    - Configs:
-      - Home: libx/config/index.md
-      - Key Types: libx/config/key_types.md
-    - The LibX Registration System:
-      - Home: libx/registration/index.md
-      - Registry Transformers: libx/registration/transformers.md
-      - Registry Tracking: libx/registration/tracking.md
-    - The LibX Datagen System:
-      - Home: libx/datagen/index.md
-    - SandBox:
-      - Home: libx/sandbox/index.md
-      - Datagen: libx/sandbox/datagen.md
-    - ModInit:
-      - Home: libx/modinit/index.md
-      - Codecs: libx/modinit/codecs.md
-      - Registration: libx/modinit/registration.md
 
 theme:
   name: material
@@ -47,6 +21,8 @@ extra:
       link: https://github.com/ModdingX/LibX
     - icon: minecraft/modrinth
       link: https://modrinth.com/mod/libx
+  version:
+    provider: mike
 
 markdown_extensions:
   - codehilite:
