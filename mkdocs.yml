@@ -5,36 +5,6 @@ repo_url: https://github.com/ModdingX/
 edit_uri: https://github.com/ModdingX/WikiX/edit/master/docs/
 use_directory_urls: false
 
-theme:
-  name: material
-  custom_dir: theme
-  palette:
-    scheme: default
-    primary: teal
-    accent: pink
-  logo: assets/logo_bg.png
-  favicon: assets/logo.png
-  
-extra:
-  social:
-    - icon: fontawesome/brands/discord
-      link: https://moddingx.org/discord
-    - icon: fontawesome/brands/github
-      link: https://github.com/ModdingX/
-    - icon: minecraft/curseforge
-      link: https://github.com/ModdingX/LibX
-    - icon: minecraft/modrinth
-      link: https://modrinth.com/mod/libx
-
-markdown_extensions:
-  - codehilite:
-      noclasses: true
-      use_pygments: true
-      pygments_style: igor
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.details
-
 nav:
   - Home: index.md
   - LibX:
@@ -56,3 +26,33 @@ nav:
       - Home: libx/modinit/index.md
       - Codecs: libx/modinit/codecs.md
       - Registration: libx/modinit/registration.md
+
+theme:
+  name: material
+  custom_dir: theme
+  palette:
+    scheme: default
+    primary: teal
+    accent: pink
+  logo: assets/logo_bg.png
+  favicon: assets/logo.png
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://moddingx.org/discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/ModdingX/
+    - icon: minecraft/curseforge
+      link: https://github.com/ModdingX/LibX
+    - icon: minecraft/modrinth
+      link: https://modrinth.com/mod/libx
+
+markdown_extensions:
+  - codehilite:
+      noclasses: true
+      use_pygments: true
+      pygments_style: igor
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
