@@ -25,10 +25,9 @@ public class ModItems {
 
 The comment after each line shows the id used to register the item.
 
-### Customizing elements
+## Customizing elements
 
 To further customise, how elements are registered, use the annotations from `@Reg`:
 
-  * `@Reg.Multi` treats the field as [MultiRegisterable](../registration/index.md#the-multiregisterable-interface).
   * `@Reg.Exclude` will exclude a field from registration.
   * `@Reg.Name` allows to set a custom name used for registration.

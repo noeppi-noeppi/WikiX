@@ -3,7 +3,7 @@
 LibX provides a custom config system based on json files.
 This will outline the basics of the config system, for more information see the javadoc.
 
-### Creating a config
+## Creating a config
 
 A config is a java class with some annotations.
 Adding config values are meant to be as adding a field to a class.
@@ -51,7 +51,7 @@ To register that config, use one of the `ConfigManager.registerConfig` methods:
      See below.
      The config is stored in `.minecraft/config/namespace/path.json5`.
 
-### Config Types
+## Config Types
 
 There are two types fo config:
 
@@ -61,11 +61,11 @@ They are synced from the server to the client, so you can expect the values set 
 
 Client configs on the other side are only present on the client and won't be synced.
 
-### Reloading configs
+## Reloading configs
 
 Using the command `/libx reload`, configs can be reloaded.
 
-### Extending the config system
+## Extending the config system
 
 You can add custom config mappers to make your config support more types.
 You can also add custom validators that can be added to field through an annotation to further validate values.

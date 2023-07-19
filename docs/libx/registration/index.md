@@ -14,11 +14,8 @@ For more information, see [registry transformers](transformers.md) and [registry
 Next, you need to call `ModXRegistration#addRegistrationHandler` in your mod constructor with a reference to a method that registers items to your mod. Alternatively, you can use [modinit](../modinit/registration.md) for that.
 
 Inside a registration handler, you can register objects using `ModXRegistration#register`.
-There is also `ModXRegistration#registerMulti` which can register multiple objects to the same registry at once.
-See [here](#the-multiregisterable-interface) for more information.
-Also there is `ModXRegistration#createHolder` which will not only register your item but also create a holder for it that is updated with the registry.
 
-### The Registerable interface
+## The Registerable interface
 
 To really make use of the LibX registration system, you can implement the `Registerable` interface on every object that is registered to the system to further customise, how it's registered.
 `Registerable` provides the following methods:
@@ -33,15 +30,3 @@ To really make use of the LibX registration system, you can implement the `Regis
 
 Using these methods, a single object can register a bunch of other things with it.
 This works for anything, so a single `Block` could register slabs, stairs, doors, trapdoors, ... by just passing one object to the system.
-
-### The MultiRegisterable interface
-
-Sometimes it might be desirable to register a whole lot of items to the same registry, where the registry is not known before.
-Consider a block that should be available in all 16 dye colours.
-Having a single object that can be registered that then creates 16 `Block` instances from a factory method would reduce the code quite much.
-LibX actually has a builtin class for this: `EnumObjects`.
-
-`MultiRegisterable` exists to solve this problem.
-It is very similar to normal [registerable](#the-registerable-interface), however its `registerAdditional` method can register objects without explicitly giving a registry.
-Instead they will inherit the registry from the `MultiRegisterable` object.
-A `MultiRegisterable` object is registered with `ModXRegistration#registerMulti` instead of `ModXRegistration#register`.

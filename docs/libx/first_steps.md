@@ -2,7 +2,7 @@
 
 Add LibX as a dependency as described [here](index.md).
 
-### Declare dependency in mods.toml
+## Declare dependency in mods.toml
 
 Put this into your `mods.toml` file and replace `modid` with your mods id and `libx_version` with the minimum required LibX version..
 
@@ -15,7 +15,7 @@ Put this into your `mods.toml` file and replace `modid` with your mods id and `l
     side="BOTH"
 ```
 
-### Extending ModX
+## Extending ModX
 
 Most stuff in LibX requires your mod class to extends `ModX`.
 

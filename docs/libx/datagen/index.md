@@ -8,7 +8,7 @@ The LibX datagen system works in three stages:
   * **extension setup**: This stage is similar to the *registry setup* stage. However most datapack registries are frozen. This stage is used to populate *extension registries* (dee below).
   * **datagen**: At the beginning of this stage, all elements that were newly added to the registries in earlier steps are generated. After that regular data providers run and generate their output.
 
-### Extension registries
+## Extension registries
 
 Some registries reference elements in other registries by the id used to register them. (For example the biome surface registry from [SandBox](../sandbox/index.md)).
 In order to populate these registries, the other datapack registries must be already frozen, hence the existence of the *extension setup* stage.
@@ -30,7 +30,7 @@ Each output can have multiple parents. If an element is added to the registry se
 
 It is possible to create a vanilla `PackOutput` from a `PackTarget` to use it with non-LibX providers. 
 
-### Using the system
+## Using the system
 
 In order to use the system, add the following to your mods constructor:
 

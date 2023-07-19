@@ -10,7 +10,7 @@ These holders are intrusive and must be properly registered afterwards.
 
 The id of the object is obtained from the field name, however, it's possible to change that id using the `@Id` annotation.
 
-### Example
+## Example
 
 ```java
 public class FeatureProvider extends FeatureProviderBase {

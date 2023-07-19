@@ -2,7 +2,7 @@
 
 Registry conditions and transformers can filter and modify elements before they are passed to the LibX registration system.
 
-### Registry Conditions
+## Registry Conditions
 
 Registry Conditions implement the `RegistryCondition` interface.
 They have a method called `shouldRegister` that is called with each object that is about to be registered.
@@ -20,7 +20,7 @@ public class ExcludeItems implements RegistryCondition {
 }
 ```
 
-### Registry Transformers
+## Registry Transformers
 
 Registry Transformers implement the `RegistryTransformer` interface.
 They have a method called `transform` that is called with each object that is about to be registered and passed the registry conditions.

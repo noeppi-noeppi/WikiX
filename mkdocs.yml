@@ -1,37 +1,58 @@
-site_name: LibX Wiki
+site_name: ModdingX Wiki
 site_url: https://moddingx.github.io/WikiX
-repo_name: ModdingX/LibX
-repo_url: https://github.com/ModdingX/LibX
+repo_name: ModdingX
+repo_url: https://github.com/ModdingX/
+edit_uri: https://github.com/ModdingX/WikiX/edit/master/docs/
 use_directory_urls: false
 
-theme: windmill
+theme:
+  name: material
+  custom_dir: theme
+  palette:
+    scheme: default
+    primary: teal
+    accent: pink
+  logo: assets/logo_bg.png
+  favicon: assets/logo.png
+  
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://moddingx.org/discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/ModdingX/
+    - icon: minecraft/curseforge
+      link: https://github.com/ModdingX/LibX
+    - icon: minecraft/modrinth
+      link: https://modrinth.com/mod/libx
 
 markdown_extensions:
   - codehilite:
       noclasses: true
       use_pygments: true
       pygments_style: igor
-
-extra:
-  logo: logo.png
-  version: "<span onClick=\"window.open('https://moddingx.org/discord')\">Discord</span>"
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
 
 nav:
   - Home: index.md
-  - First Steps: first_steps.md
-  - Configs:
-    - Home: config/index.md
-    - Key Types: config/key_types.md
-  - The LibX Registration System:
-    - Home: registration/index.md
-    - Registry Transformers: registration/transformers.md
-    - Registry Tracking: registration/tracking.md
-  - The LibX Datagen System:
-    - Home: datagen/index.md
-  - SandBox:
-    - Home: sandbox/index.md
-    - Datagen: sandbox/datagen.md
-  - ModInit:
-    - Home: modinit/index.md
-    - Codecs: modinit/codecs.md
-    - Registration: modinit/registration.md
+  - LibX:
+    - Home: libx/index.md
+    - First Steps: libx/first_steps.md
+    - Configs:
+      - Home: libx/config/index.md
+      - Key Types: libx/config/key_types.md
+    - The LibX Registration System:
+      - Home: libx/registration/index.md
+      - Registry Transformers: libx/registration/transformers.md
+      - Registry Tracking: libx/registration/tracking.md
+    - The LibX Datagen System:
+      - Home: libx/datagen/index.md
+    - SandBox:
+      - Home: libx/sandbox/index.md
+      - Datagen: libx/sandbox/datagen.md
+    - ModInit:
+      - Home: libx/modinit/index.md
+      - Codecs: libx/modinit/codecs.md
+      - Registration: libx/modinit/registration.md
