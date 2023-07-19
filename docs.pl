@@ -12,7 +12,7 @@ given(shift) {
     }
     when("help") {
         print "$0 help\n\n";
-        print "help           Show this help\n";
+        print "help          Show this help\n";
         print "build         Publish the documentation.\n";
         print "serve [wiki]  Serve one of the wikis locally\n";
     }

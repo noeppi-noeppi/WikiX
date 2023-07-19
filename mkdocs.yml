@@ -8,6 +8,8 @@ theme:
     scheme: default
     primary: teal
     accent: pink
+  features:
+    - content.action.edit
   logo: assets/logo_bg.png
   favicon: assets/logo.png
 
@@ -17,10 +19,6 @@ extra:
       link: https://moddingx.org/discord
     - icon: fontawesome/brands/github
       link: https://github.com/ModdingX/
-    - icon: minecraft/curseforge
-      link: https://github.com/ModdingX/LibX
-    - icon: minecraft/modrinth
-      link: https://modrinth.com/mod/libx
   version:
     provider: mike
 
