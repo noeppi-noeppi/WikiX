@@ -62,7 +62,7 @@ modpack {
 The [CurseForge](../targets/curseforge.md) target is added via `curse(projectId)` and builds a curse modpack that can be published on [CurseForge](https://www.curseforge.com/minecraft/modpacks).
 It contains only *client* data.
 
-### Modrnith
+### Modrinth
 
 The [Modrinth](../targets/modrinth.md) target is added via `modrinth()` and builds a modrinth pack that can be published on [Modrinth](https://modrinth.com/modpacks).
 It contains both *client* and *server* data.

@@ -3,7 +3,6 @@
 The CurseForge target builds a modpack zip for upload on [CurseForge](https://www.curseforge.com/minecraft/modpacks).
 CurseForge modpacks need to contain a CurseForge project id, which is set during [build configuration](../modpack/configuration.md).
 
-
 ???+ info "Cross-platform building"
      It is possible to build a CurseForge pack even if the [modlist](../modpack/modlist.md) uses Modrinth as a platform.
      PackDev will match all mods to their CurseForge projects using *fingerprints*.
