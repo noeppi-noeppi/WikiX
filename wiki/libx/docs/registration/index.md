@@ -11,7 +11,7 @@ To get started, implement `ModXRegistration` with your mod class.
 You'll now need to override the `initRegistration` method, where you can tweak some of the more advanced features of the system.
 For more information, see [registry transformers](transformers.md) and [registry tracking](tracking.md).
 
-Next, you need to call `ModXRegistration#addRegistrationHandler` in your mod constructor with a reference to a method that registers items to your mod. Alternatively, you can use [modinit](../modinit/registration.md) for that.
+Next, you need to call `ModXRegistration#addRegistrationHandler` in your mod constructor with a reference to a method that registers items to your mod. Alternatively, you can use [ModInit](../modinit/registration.md) for that.
 
 Inside a registration handler, you can register objects using `ModXRegistration#register`.
 

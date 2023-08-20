@@ -20,7 +20,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/ModdingX/
     - icon: minecraft/curseforge
-      link: https://github.com/ModdingX/LibX
+      link: https://www.curseforge.com/minecraft/mc-mods/libx
     - icon: minecraft/modrinth
       link: https://modrinth.com/mod/libx
   version:

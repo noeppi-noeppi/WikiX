@@ -6,18 +6,18 @@ This will outline the basics of the config system, for more information see the 
 ## Creating a config
 
 A config is a java class with some annotations.
-Adding config values are meant to be as adding a field to a class.
+Adding config values are meant to be as simple as adding a field to a class.
 An example for a config class is shown here:
 
 ```java
 public class MyConfig {
     
-    @Config("A command for a config key")
+    @Config("A comment for a config key")
     public static String someValue = "Hello";
     
     @Config({
             "Multiline comments",
-            "work aas well"
+            "work as well"
     })
     @IntRange(min = 0, max = 20)
     public static int value = 3;
@@ -34,7 +34,7 @@ Each field annotated ith `@Config` will become a config value and the value set 
 The initial value of the field will become the default value.
 The fields must be `static` and may not be `final`.
 Null values are not allowed in the fields, but in the config json.
-For a lis tof supported field types, see [Config Key Types](key_types.md).
+For a list of supported field types, see [Config Key Types](key_types.md).
 
 To register that config, use one of the `ConfigManager.registerConfig` methods:
 
@@ -57,7 +57,7 @@ There are two types fo config:
 
 Common configs and client configs.
 Common configs are present on both client and server.
-They are synced from the server to the client, so you can expect the values set on the server, a client is currently playing on.
+They are synced from the server to the client, so a client will always have the values, that are set one the server it is currently playing on.
 
 Client configs on the other side are only present on the client and won't be synced.
 

@@ -5,7 +5,7 @@ LibX provides a system for datagen that can load datapack registries during data
 The LibX datagen system works in three stages:
 
   * **registry setup**: In this stage, the datapack registries can be populated with values. Output should not be generated during this stage. At the end of this stage, almost all datapack registries are frozen.
-  * **extension setup**: This stage is similar to the *registry setup* stage. However most datapack registries are frozen. This stage is used to populate *extension registries* (dee below).
+  * **extension setup**: This stage is similar to the *registry setup* stage. However most datapack registries are frozen. This stage is used to populate *extension registries* (see below).
   * **datagen**: At the beginning of this stage, all elements that were newly added to the registries in earlier steps are generated. After that regular data providers run and generate their output.
 
 ## Extension registries

@@ -1,6 +1,6 @@
 # SandBox
 
-ModInit is the LibX world generation library.
+SandBox is the LibX world generation library.
 SandBox add some new datapack content for world generation and most notably a lot of data providers to generate worldgen data using the [LibX datagen system](../datagen/index.md).
 
 ### The surface rule set and biome surface registries
@@ -22,7 +22,7 @@ This makes it easy to extend structures like villages with custom buildings.
 
 ## Layered biome source
 
-A `LayeredBiomeSource` behaves like a `MultiNoiseBiomeSource`, however, it an work with multiple `BiomeLayer`s and sample each layer in its own noise range, so they don't interfere.
+A `LayeredBiomeSource` behaves like a `MultiNoiseBiomeSource`, however, it can work with multiple `BiomeLayer`s and sample each layer in its own noise range, so they don't interfere.
 
 ## Extended noise chunk generator
 
