@@ -10,6 +10,7 @@ theme:
     accent: pink
   features:
     - content.action.edit
+    - content.code.copy
   logo: assets/logo_bg.png
   favicon: assets/logo.png
 

@@ -35,7 +35,7 @@ modpack {
 
 You can set an optional modpack author that is used by some targets if available:
 
-```gradle
+```groovy
 modpack {
     author 'Rubber Duck'
 }

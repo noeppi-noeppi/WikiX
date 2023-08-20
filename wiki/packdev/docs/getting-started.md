@@ -39,4 +39,4 @@ Overrides can be put in `data/common` for overrides on both client and server an
 You can run the game via `gradle runClient` or `gradle runServer`.
 This will run a client or server respectively.
 The `.minecraft` directory of these runs is `runClient` or `runServer` inside your project root.
-This is also where mods wil lcreate their configs. If you want to change them, you need to copy them into the matchov override folder first.
+This is also where mods will create their configs. If you want to change them, you need to copy them into the matching override folder first.

@@ -13,7 +13,7 @@ This information does not matter for PackDev but does for editors when computing
 ???+ tip
      It is strongly advised to use the [Moonstone](https://github.com/ModdingX/Moonstone) IntelliJ plugin to edit the modlist.
      This way, dependencies will be automatically computed and mods can be updated with one click.
-     Instruction on how to install Moonstone can be found at <https://moddingx.org/jetbrains>.
+     Instructions on how to install Moonstone can be found at <https://moddingx.org/jetbrains>.
 
 ## JSON format
 

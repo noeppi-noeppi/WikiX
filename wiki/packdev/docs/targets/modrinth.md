@@ -1,7 +1,7 @@
 # The Modrinth target
 
 The Modrinth target builds a modpack archive for upload on [Modrinth](https://modrinth.com/modpacks).
-Modrinth packs contain both client and server data and are upported by a variety of pack installers.
+Modrinth packs contain both client and server data and are supported by a variety of pack installers.
 
 ???+ info "Cross-platform building"
      It is possible to build a Modrinth pack even if the [modlist](../modpack/modlist.md) uses CurseForge as a platform.
