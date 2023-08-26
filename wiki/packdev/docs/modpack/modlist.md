@@ -8,12 +8,19 @@ Despite the mod list, this file also contains the following information:
   * The mod loader used in the modpack.
 
 Also it stores which mods have been manually installed and which mods were installed only as dependency.
-This information does not matter for PackDev but does for editors when computing the dependencies.
+
+## Running Moonstone
+
+[Moonstone](https://github.com/ModdingX/Moonstone) is a graphical editor for the `modlist.json` file.
+There are two ways to use Moonstone:
+
+  * You can use Moonstone as an IntelliJ plugin to edit the modlist directly from your IDE.
+    See <https://moddingx.org/jetbrains> for more information on how to add Moonstone to your IDE.
+  * You can also launch Moonstone with the `moonstone` gradle task.
+    This will open your modlist as a standalone application.
 
 ???+ tip
-     It is strongly advised to use the [Moonstone](https://github.com/ModdingX/Moonstone) IntelliJ plugin to edit the modlist.
-     This way, dependencies will be automatically computed and mods can be updated with one click.
-     Instructions on how to install Moonstone can be found at <https://moddingx.org/jetbrains>.
+     If you're running Moonstone through the `moonstone` gradle task and prefer a light theme, add `moonstone.theme=light` to your `gradle.properties` file.
 
 ## JSON format
 
