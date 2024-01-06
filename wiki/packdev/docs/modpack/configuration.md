@@ -27,6 +27,9 @@ modpack {
 }
 ```
 
+Note that NeoForge already uses official mappings as their intermediate mapping format.
+`useOfficialMappings()` therefore has no effect when used with NeoForge other than emitting a warning message that it's redundant.
+
 ???+ danger "Problem with official mappings"
      Using the official mappings can cause a variety of problems, so be sure to try without them before reporting issues.
      Especially on Forge before version `1.17` you can expect build failures with official mappings.

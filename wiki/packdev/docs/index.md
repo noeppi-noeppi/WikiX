@@ -1,7 +1,7 @@
 # PackDev wiki
 
 PackDev is a gradle plugin for creating and building modpacks.
-It supports both [CurseForge](https://www.curseforge.com/minecraft) and [Modrinth](https://modrinth.com/) and can build modpacks fo [Forge](https://files.minecraftforge.net), [Fabric](https://fabricmc.net/) and [Quilt](https://quiltmc.org/).
+It supports both [CurseForge](https://www.curseforge.com/minecraft) and [Modrinth](https://modrinth.com/) and can build modpacks for [Forge](https://files.minecraftforge.net), [Fabric](https://fabricmc.net/), [Quilt](https://quiltmc.org/) and [NeoForge](https://neoforged.net/).
 
 Modpacks are often developed using a third party launcher that then exports the modpack in some format for publishing.
 However, tis comes with a lot of disadvantages:
@@ -25,6 +25,7 @@ buildscript {
         maven { url = 'https://maven.minecraftforge.net' }
         maven { url = 'https://maven.fabricmc.net' }
         maven { url = 'https://maven.quiltmc.org/repository/release/' }
+        maven { url = 'https://maven.neoforged.net/releases/' }
     }
     dependencies {
         classpath "org.moddingx:PackDev:${packdev_version}"

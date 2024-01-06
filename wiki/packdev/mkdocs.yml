@@ -12,6 +12,7 @@ nav:
     - MinecraftForge: loaders/forge.md
     - Fabric: loaders/fabric.md
     - Quilt: loaders/quilt.md
+    - NeoForge: loaders/neoforge.md
   - Targets:
     - CurseForge: targets/curseforge.md
     - Modrinth: targets/modrinth.md

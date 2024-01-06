@@ -8,7 +8,7 @@ use Cwd;
 
 given(shift) {
     when(undef) {
-        print "No command give, use $0 help for help.\n";
+        print "No command given, use $0 help for help.\n";
     }
     when("help") {
         print "$0 help\n\n";

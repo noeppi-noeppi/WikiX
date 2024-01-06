@@ -1,8 +1,8 @@
-# Forge modpacks
+# NeoForge modpacks
 
-To use [MinecraftForge](https://files.minecraftforge.net/) as mod-loader, set the `loader` field to `forge`.
+To use [NeoForge](https://projects.neoforged.net/neoforged/neoforge) as mod-loader, set the `loader` field to `neoforge`.
 
-Forge modpacks use the *ForgeGradle* plugin, so it has to be present on the classpath.
+NeoForge modpacks use the *NeoGradle* plugin, so it has to be present on the classpath.
 
 ## Forge Example
 
@@ -15,10 +15,11 @@ buildscript {
         gradlePluginPortal()
         maven { url = 'https://maven.moddingx.org/' }
         maven { url = 'https://maven.minecraftforge.net' }
+        maven { url = 'https://maven.neoforged.net/releases' }
     }
     dependencies {
         classpath "org.moddingx:PackDev:${packdev_version}"
-        classpath "net.minecraftforge.gradle:ForgeGradle:${forgegradle_version}"
+        classpath "net.neoforged.gradle:userdev:${neogradle_version}"
     }
 }
 
@@ -27,9 +28,9 @@ apply plugin: 'org.moddingx.packdev'
 version = '1'
 
 modpack {
-    loader '45.1.16'
+    loader '20.4.79-beta'
     targets {
-        multimc()
+        server()
     }
 }
 ```
@@ -40,8 +41,8 @@ modpack {
 {
   "api": 2,
   "platform": "modrinth",
-  "loader": "forge",
-  "minecraft": "1.19.4",
+  "loader": "neoforge",
+  "minecraft": "1.20.4",
   "installed": [],
   "dependencies": []
 }
