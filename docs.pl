@@ -3,20 +3,17 @@
 use v5.12;
 use strict;
 use warnings;
-use experimental 'switch';
 use Cwd;
 
-given(shift) {
-    when(undef) {
+for (shift) {
+    if (!defined) {
         print "No command given, use $0 help for help.\n";
-    }
-    when("help") {
+    } elsif ($_ eq "help") {
         print "$0 help\n\n";
         print "help          Show this help\n";
         print "build         Publish the documentation.\n";
         print "serve [wiki]  Serve one of the wikis locally\n";
-    }
-    when("build") {
+    } elsif ($_ eq "build") {
         system('git branch -D gh-pages');
         opendir(my $DIR, 'wiki') || die "Failed to open wiki dir: $!";
         while (my $wiki = readdir $DIR) {
@@ -26,9 +23,11 @@ given(shift) {
         }
         closedir($DIR);
         mkdocs('libx', 'mike', 'set-default', '-b', 'gh-pages', '--ignore', '-m', 'Default redirect', 'libx')
-    }
-    when("serve") {
+    } elsif ($_ eq "serve") {
+        die 'serve requires an argument' unless $#ARGV + 1;
         mkdocs(shift, 'mkdocs', 'serve');
+    } else {
+        die "Unknown command: $_\n";
     }
 }
 
