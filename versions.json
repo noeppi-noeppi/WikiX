@@ -3,5 +3,10 @@
     "version": "packdev",
     "title": "packdev",
     "aliases": []
+  },
+  {
+    "version": "modgradle",
+    "title": "modgradle",
+    "aliases": []
   }
 ]
