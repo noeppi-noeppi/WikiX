@@ -1,0 +1,11 @@
+site_name: ModGradle Wiki
+repo_name: ModdingX/ModGradle
+repo_url: https://github.com/ModdingX/ModGradle
+
+nav:
+  - Home: index.md
+  - The javadoc plugin: javadoc/index.md
+  - The meta plugin:
+    - Home: meta/index.md
+    - Mod configuration: meta/setup.md
+    - Mod properties: meta/properties.md
