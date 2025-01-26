@@ -8,5 +8,10 @@
     "version": "modgradle",
     "title": "modgradle",
     "aliases": []
+  },
+  {
+    "version": "libx",
+    "title": "libx",
+    "aliases": []
   }
 ]
